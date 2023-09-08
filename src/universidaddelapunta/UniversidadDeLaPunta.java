@@ -5,7 +5,7 @@
 package universidaddelapunta;
 
 import java.sql.Connection;
-import universidaddelapunta.AccesoADatos.conexion;
+import universidaddelapunta.AccesoADatos.Conexion;
 
 /**
  *
@@ -17,7 +17,7 @@ public class UniversidadDeLaPunta {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Connection con=conexion.getConexion();
+        Connection con=Conexion.getConexion();
     }
     
 }

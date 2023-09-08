@@ -3,7 +3,7 @@ package universidaddelapunta.AccesoADatos;
 import java.sql.*;
 import javax.swing.JOptionPane;
 
-public class conexion {
+public class Conexion {
     
     private static final String URL="jdbc:mariadb://localhost/";
     private static final String DB="universidad de la punta";
@@ -11,7 +11,7 @@ public class conexion {
     private static final String PASSWORD="";
     private static Connection connection;
     
-    private conexion(){}
+    private Conexion(){}
     
     public static Connection getConexion(){
         if(connection==null){
